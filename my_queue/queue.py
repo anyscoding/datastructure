@@ -6,7 +6,7 @@ class Queue(object):
         self.items.append(item)
 
     def dequeue(self):
-        self.items.pop(0)
+        return self.items.pop(0)
 
     def is_empty(self):
         return self.items == []
